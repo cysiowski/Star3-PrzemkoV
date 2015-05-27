@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <ImageView fx:id="cameraView" fitHeight="619.0" fitWidth="825.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+      <Separator layoutX="859.0" layoutY="122.0" orientation="VERTICAL" prefHeight="363.0" prefWidth="8.0" />
+      <Slider fx:id="rSlider" layoutX="874.0" layoutY="158.0" prefHeight="16.0" prefWidth="112.0" />
+      <Slider fx:id="gSlider" layoutX="874.0" layoutY="182.0" prefHeight="16.0" prefWidth="112.0" />
+      <Slider fx:id="bSlider" layoutX="874.0" layoutY="207.0" prefHeight="16.0" prefWidth="112.0" />
+      <TextField fx:id="param1" layoutX="927.0" layoutY="255.0" prefHeight="26.0" prefWidth="59.0" />
+      <TextField fx:id="param2" layoutX="927.0" layoutY="290.0" prefHeight="26.0" prefWidth="59.0" />
+      <TextField fx:id="param3" layoutX="927.0" layoutY="324.0" prefHeight="26.0" prefWidth="59.0" />
+      <TextField fx:id="param4" layoutX="927.0" layoutY="359.0" prefHeight="26.0" prefWidth="59.0" />
+      <Label layoutX="874.0" layoutY="260.0" text="Label" />
+      <Label layoutX="874.0" layoutY="296.0" text="Label" />
+      <Label layoutX="874.0" layoutY="329.0" text="Label" />
+      <Label layoutX="874.0" layoutY="364.0" text="Label" />
+   </children>
+</AnchorPane>
