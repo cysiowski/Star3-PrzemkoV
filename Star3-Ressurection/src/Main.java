@@ -1,3 +1,8 @@
+package src;
+
+
+import java.net.URL;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -13,7 +18,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(Main.class.getResource("testView.fxml"));
+        URL location=getClass().getResource("testView.fxml");
+        loader.setLocation(location);
         rootLayout = (AnchorPane) loader.load();
 
         MainController controller = loader.getController();

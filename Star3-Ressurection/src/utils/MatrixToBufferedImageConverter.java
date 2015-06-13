@@ -1,4 +1,4 @@
-package utils;
+package src.utils;
 
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
