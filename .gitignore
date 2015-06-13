@@ -49,7 +49,7 @@ Temporary Items
 # Package Files #
 *.war
 *.ear
-.idea/
+
 out/
 bin/
 target/
